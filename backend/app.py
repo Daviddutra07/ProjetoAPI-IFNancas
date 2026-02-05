@@ -170,4 +170,4 @@ def remover_item(item_id):
     return jsonify({"message": "Item removido"}), 200
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)x
+    app.run(debug=True, port=5000)
